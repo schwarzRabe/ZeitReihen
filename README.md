@@ -1,5 +1,5 @@
 # ZeitReihen
-# @krampf_bot:
+# @krampf_bot
 
 # Telegram-бот для анализа и прогнозирования акций
 
