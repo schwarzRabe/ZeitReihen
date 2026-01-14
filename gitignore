@@ -1,0 +1,23 @@
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+dist/
+build/
+
+.venv/
+venv/
+ENV/
+
+.vscode/
+.idea/
+
+.env
+
+# Рабочий лог (создаётся автоматически)
+/logs.csv
+
+# Временные графики (создаются при каждом запросе)
+*.png
+# Но разрешаем скриншоты в reports/ для демонстрации
+!reports/*.png
