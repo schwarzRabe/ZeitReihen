@@ -157,17 +157,29 @@ python app.py
 ## Структура проекта
 
 ZeitReihen/
+
 ├─ app.py
+
 ├─ core.py
+
 ├─ models.py
+
 ├─ config.py
+
 ├─ requirements.txt
+
 ├─ requirements-ml.txt
+
 ├─ env.example
+
 ├─ reports/
+
 │  ├─ logs.csv
+
 │  ├─ scr_1.png
+
 │  ├─ scr_2.png
+
 │  └─ ...
 
 ---
