@@ -82,8 +82,6 @@ Fallback (если экстремумов нет):
 
 Файл создаётся автоматически в корне проекта (см. `config.py: log_path = Path("logs.csv")`).
 
-Столбцы (актуально для текущей версии):
-
 - `timestamp` — время запроса
 - `user_id` — id пользователя
 - `ticker` — тикер
@@ -158,18 +156,19 @@ python app.py
 
 ## Структура проекта
 
-```text
-ts_bot_project/
-├── app.py         # Telegram-бот (aiogram v3 + FSM)
-├── core.py        # Пайплайн: данные → модели → выбор → прогноз → стратегия → графики → лог
-├── models.py      # Модели (Naive, LagRidge, Boosting, ARIMA, ETS, GRU)
-├── config.py      # Настройки проекта (horizon/test_size/метрика/параметры моделей)
-├── logs.csv       # Логи (создаётся автоматически)
-├── requirements.txt
-├── requirements-ml.txt
-├── .env.example
-└── README.md
-```
+ZeitReihen/
+├─ app.py
+├─ core.py
+├─ models.py
+├─ config.py
+├─ requirements.txt
+├─ requirements-ml.txt
+├─ env.example
+├─ reports/
+│  ├─ logs.csv
+│  ├─ scr_1.png
+│  ├─ scr_2.png
+│  └─ ...
 
 ---
 
